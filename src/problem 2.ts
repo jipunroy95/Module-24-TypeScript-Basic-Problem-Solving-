@@ -1,5 +1,5 @@
 //  Store Inventory Status
-function getStockStatus(quantity: number): string {
+function getStockStatus(quantity: number): string  {
     if (quantity === 0) {
         return "Out of Stock";
     } else if (quantity <= 5) {
